@@ -6,14 +6,7 @@ import { getFirestore, collection, addDoc , getDocs, getDoc, doc, query, where} 
 
 const FirebaseContext = createContext(null);
 
-const firebaseConfig = {
-  apiKey: "AIzaSyCa23FYCJj0nvt41VhKNTT6Y8DmKpug2Wg",
-  authDomain: "bookify-b421d.firebaseapp.com",
-  projectId: "bookify-b421d",
-  storageBucket: "bookify-b421d.firebasestorage.app",
-  messagingSenderId: "1068917457297",
-  appId: "1:1068917457297:web:02ba50fff636421ccb1a30"
-};
+const firebaseConfig = {} // past the fireabse config here 
 
 export const useFirebase = () => useContext(FirebaseContext);
 
