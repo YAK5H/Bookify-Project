@@ -6,7 +6,7 @@ import { getFirestore, collection, addDoc , getDocs, getDoc, doc, query, where} 
 
 const FirebaseContext = createContext(null);
 
-const firebaseConfig = {} // past the fireabse config here 
+const firebaseConfig = {} // paste the fireabse config here 
 
 export const useFirebase = () => useContext(FirebaseContext);
 
